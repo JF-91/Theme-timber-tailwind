@@ -1,0 +1,97 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "#0073aa"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "color": "#005177"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                }
+            ]
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "name": "Small",
+                    "slug": "small",
+                    "size": "12px"
+                },
+                {
+                    "name": "Normal",
+                    "slug": "normal",
+                    "size": "16px"
+                },
+                {
+                    "name": "Large",
+                    "slug": "large",
+                    "size": "24px"
+                },
+                {
+                    "name": "Huge",
+                    "slug": "huge",
+                    "size": "32px"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "name": "Sans Serif",
+                    "slug": "sans-serif",
+                    "fontFamily": "Arial, sans-serif"
+                },
+                {
+                    "name": "Serif",
+                    "slug": "serif",
+                    "fontFamily": "Georgia, serif"
+                }
+            ]
+        },
+        "spacing": {
+            "units": [
+                {
+                    "name": "Small",
+                    "slug": "small",
+                    "size": "8px"
+                },
+                {
+                    "name": "Medium",
+                    "slug": "medium",
+                    "size": "16px"
+                },
+                {
+                    "name": "Large",
+                    "slug": "large",
+                    "size": "32px"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "#ffffff",
+            "text": "#000000"
+        },
+        "typography": {
+            "fontFamily": "Arial, sans-serif",
+            "fontSize": "16px"
+        },
+        "spacing": {
+            "padding": "16px"
+        }
+    }
+}
