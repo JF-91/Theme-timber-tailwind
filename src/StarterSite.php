@@ -53,6 +53,7 @@ class StarterSite extends Site
 	public function add_to_context($context)
 	{
 		$context['menu']  = Timber::get_menu();
+		$context['footer']  = Timber::get_menu('footer');
 		$context['site']  = $this;
 
 		$custom_logo_url = wp_get_attachment_image_url(get_theme_mod('custom_logo'), 'full');

@@ -48,7 +48,10 @@
 		</section>
 
 		{% block footer %}
-			{% include 'partials/footer.twig' %}
+			{% include 'partials/footer.twig' with {
+				items: footer.get_items,
+				site: site
+			}  %}
 		{% endblock %}
 		{{ function('wp_footer') }}
 		{% do action('get_footer') %}
