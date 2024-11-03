@@ -2,5 +2,15 @@
 
 
 {% block content %}
+
+
 	<h1>About Page john</h1>
+	<div>{{ about.content|raw }}</div>
+
+	{% for articulo in articulos %}
+		{{ articulo.title }}
+		{{ articulo.text_content }}
+		<img src="{{ articulo.image }}" alt="{{ articulo.title }}">
+	{% endfor %}
+	
 {% endblock %}

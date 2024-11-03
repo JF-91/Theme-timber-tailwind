@@ -55,11 +55,21 @@ class StarterSite extends Site
 		$context['menu']  = Timber::get_menu();
 		$context['site']  = $this;
 
+		$custom_logo_url = wp_get_attachment_image_url(get_theme_mod('custom_logo'), 'full');
+		$context['custom_logo_url'] = $custom_logo_url;    
+
 		return $context;
 	}
 
 	public function theme_supports()
 	{
+		add_theme_support('custom-logo', array(
+			'height' => 100,
+			'width' => 400,
+			'flex-height' => true,
+			'flex-width' => true,
+		));
+
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support('automatic-feed-links');
 
